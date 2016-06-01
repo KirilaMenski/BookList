@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#564545">
+
+    <TextView
+        android:id="@+id/inf_book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/book_title_label"
+        android:padding="4dp"
+        style="?android:listSeparatorTextViewStyle"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/edit_book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_book"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/inf_author_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/author_name_label"
+        android:padding="4dp"
+        style="?android:listSeparatorTextViewStyle"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/edit_author_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_author"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/update_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_book"
+        android:layout_margin="4dp"/>
+
+    <Button
+        android:id="@+id/delete_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_book"
+        android:layout_margin="4dp"/>
+
+</LinearLayout>

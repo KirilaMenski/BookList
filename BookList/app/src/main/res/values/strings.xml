@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BookList</string>
+    <string name="book_title_label">Book title:</string>
+    <string name="author_name_label">Author name:</string>
+    <string name="enter_book">Enter book title</string>
+    <string name="enter_author">Enter author name</string>
+    <string name="add_book">Add book</string>
+    <string name="exite">Exite</string>
+    <string name="delete_book">Delete book</string>
+    <string name="update_book">Update book</string>
+</resources>
